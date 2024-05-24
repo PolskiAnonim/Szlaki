@@ -240,38 +240,6 @@ object SettingsScreen: Screen {
                             )
                         }
                     )
-
-//                    TextField(
-//                        value = SettingsTab.speed.collectAsState().value,
-//                        suffix = { Text(text = "km/h",fontSize = 14.sp) },
-//                        onValueChange = { newValue ->
-//                            if (newValue.matches(Regex("^\\d*\\.?\\d*\$"))) {
-//                                SettingsTab.speed.value=newValue
-//                            }},
-//                        maxLines = 1,
-//                        textStyle = MaterialTheme.typography.bodyMedium,
-//                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
-//                        colors = TextFieldDefaults.colors( //I hate people who created this
-//                            focusedTextColor=Color.Black,
-//                            unfocusedTextColor=Color.Black,
-//                            focusedContainerColor=MaterialTheme.colorScheme.primary,
-//                            unfocusedContainerColor=MaterialTheme.colorScheme.primary,
-//                            disabledContainerColor=MaterialTheme.colorScheme.primary,
-//                            errorContainerColor=MaterialTheme.colorScheme.primary,
-//                            cursorColor=MaterialTheme.colorScheme.primaryContainer,
-//                            focusedIndicatorColor=MaterialTheme.colorScheme.primaryContainer,
-//                            unfocusedIndicatorColor=MaterialTheme.colorScheme.primaryContainer,
-//                            disabledIndicatorColor=MaterialTheme.colorScheme.primaryContainer,
-//                            errorIndicatorColor=MaterialTheme.colorScheme.primaryContainer,
-//                            focusedSuffixColor=MaterialTheme.colorScheme.primary,
-//                            unfocusedSuffixColor=MaterialTheme.colorScheme.primary,
-//                            disabledSuffixColor=MaterialTheme.colorScheme.primary
-//                        ),
-//                        shape = RoundedCornerShape(60),
-//                        modifier = Modifier
-//                            .padding(horizontal = 16.dp, vertical = 8.dp)
-//                            .height(35.dp)
-//                    )
                 }
             }
         }
